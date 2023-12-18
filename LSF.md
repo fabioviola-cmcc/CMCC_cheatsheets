@@ -147,7 +147,7 @@
   $ bsla
   ```
 
-- To see details of a service class
+- To see details of a service class:
   ```
   $ bsla <SC_NAME>
   ```
@@ -160,22 +160,25 @@
 
 ## Status of the cluster
 
-- Check the status of the queues
+- Check the status of the queues:
   ```
   $ bqueues
   ```
   
-- Check the status of the nodes
+- Check the status of the nodes:
   ```
   $ bhosts
   ```
 
-- Check the load of the nodes
+- Check the load of the nodes:
   ```
   $ lsload
   ```
   
-- Check the status of the queues
+- Connect to a node to check its status:
+  ```
+  $ bsub -Is -q s_short -P R000 /bin/bash
+  ```
 
 ## References
 
