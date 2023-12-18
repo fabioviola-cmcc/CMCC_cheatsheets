@@ -178,3 +178,13 @@
 - Check the status of the queues
 
 ## References
+
+- [**bhosts manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bhosts)
+- [**bkill manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bkill)
+- [**bqueues manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bqueues)
+- [**bresume manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bresume)
+- [**bstop manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bstop)
+- [**bsub manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bsub)
+- [**bswitch manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-bswitch)
+- [**lsload manual**](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-lsload)
+
