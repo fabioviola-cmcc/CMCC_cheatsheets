@@ -6,6 +6,8 @@
 - [Queues](#queues)
 - [History](#history)
 - [Service classes](#service-classes)
+- [Status of the cluster](#status-of-the-cluster)
+- [References](#references)
 
 
 ## Submitting a job
@@ -157,5 +159,22 @@
   NOTE: `-sla` is the parameter to use a service class, while `-app` is the parameter to enable a specific application profile. Using `-app` implies using also `-sla`.
 
 ## Status of the cluster
+
+- Check the status of the queues
+  ```
+  $ bqueues
+  ```
+  
+- Check the status of the nodes
+  ```
+  $ bhosts
+  ```
+
+- Check the load of the nodes
+  ```
+  $ lsload
+  ```
+  
+- Check the status of the queues
 
 ## References
