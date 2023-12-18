@@ -1,5 +1,13 @@
 # LSF
 
+- [Submitting a job](#submitting-a-job)
+- [Most common BSUB directives](#most-common-bsub-directives)
+- [Checking/Moving/Killing a job](#checking-moving-or-killing-a-job)
+- [Queues](#queues)
+- [History](#history)
+- [Service classes](#service-classes)
+
+
 ## Submitting a job
 
 1. Create a script including the BSUB directives (see below)
@@ -73,7 +81,7 @@
   ```
   An example condition is *done*, to request that the job start after successful completion of the specified job. The main conditions are `done`, `ended`, `exit`, `started`. Boolean operators are supported: ``&&`` (and), `||` (or), `!` (not). See the [documentation](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=o-w-2) for more.
 
-## Checking/Moving/Killing a job
+## Checking, moving or killing a job
 
 - Verify the status of a job:
   ```
